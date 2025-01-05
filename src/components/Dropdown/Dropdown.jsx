@@ -85,10 +85,9 @@ function Dropdown({ isOpen, toggle }) {
       </NavMenu>
       <NavBtn onClick={toggle}>
         <a
-          className="btn PrimaryBtn"
-          href="https://www.linkedin.com/in/ranjithkumar-rajendran-38579226/"
-          target="_blank"
-          rel="noopener noreferrer"
+            className="btn PrimaryBtn"
+            href="./Resume_Ranjithkumar.pdf"
+            download="Ranjithkumar_Resume"
         >
           Resume
         </a>

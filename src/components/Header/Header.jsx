@@ -7,7 +7,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="./meetranjith/letter-r.svg"
+            src="./letter-r.svg"
             alt="logo"
           />
         </Logo>
@@ -25,7 +25,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="./meetranjith/Resume_Ranjithkumar.pdf"
+            href="./Resume_Ranjithkumar.pdf"
             download="Ranjithkumar_Resume"
             // target="_blank"
             // rel="noopener noreferrer"
