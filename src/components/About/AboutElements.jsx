@@ -5,7 +5,7 @@ export const ContactWrapper = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 120px;
+  border-radius:10px;
   margin: 0 auto;
   margin-bottom: 1rem;
 `;

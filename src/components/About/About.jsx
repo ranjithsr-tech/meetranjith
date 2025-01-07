@@ -17,10 +17,14 @@ function About() {
         <div className="BigCard">
         <ScrollAnimation animateIn="fadeInLeft">
           <Image
-            src="./home-icon.svg"
+            src="./software-developer.jpg"
             alt="ranjith-logo"
+            style={{
+                width:'85%'
+            }}
           />
         </ScrollAnimation>
+        <br/>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
             Hello! My name is <strong>Ranjithkumar</strong>. Results-driven Senior Javascript Developer with 11.5 years ofexperience in designing and maintaining dynamic, responsive webapplications. 

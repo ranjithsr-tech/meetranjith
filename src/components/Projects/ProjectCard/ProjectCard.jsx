@@ -1,4 +1,5 @@
 import React from "react";
+import parse from "html-react-parser";
 import { ProjectList } from "../../../data/ProjectData";
 import {
   Card,
@@ -20,7 +21,7 @@ function ProjectCard() {
             </CardLeft>
             <CardRight>
               <h4>{list.title}</h4>
-              <p>{list.description}</p>
+              <p>{parse(list.description)}</p>
               <TechCardContainer>
                 {list.tech_stack.map((tech, index) => (
                   <TechCard key={index}>{tech}</TechCard>

@@ -1,65 +1,70 @@
 // --------------------------------------- Project List
 export const ProjectList = [
     {
-      img: "/ykte-feature-graphic.png",
+      img: "./vpt.jpg",
       title: "Virtual Procedures Trainer",
-      description:
-      "Aviation Software -  To simulate real-life aircraft procedures for junior pilot training.",
-      tech_stack: ["Javascript", "React Js", "Redux", "Mui", "Node js", "Vite", "HTML", "Sass"],
+    description:
+      `<ul>
+      <li>Aviation Software -  To simulate real life aircraft procedures for junior pilot training.</li>
+      <li>User Centric Design - Delivered responsive interfaces forseamless trainee experiences.</li>
+      <li>Cross Functional Collaboration - Worked with UI/UX designersand backend teams to implement feature-rich functionalities.</li><li>Performance Optimization - Enhanced app performance,reducing load times and boosting engagement.</li>
+      <li>Automated Testing - Implemented Cypress E2E tests to ensurereliability and high-quality features.</li>
+      <ul>`,
+      tech_stack: ["Javascript", "React Js", "Redux", "Mui", "Node js", "Vite", "HTML", "CSS", "Sass", "Team Leading"],
       github_url: "",
       demo_url: "",
     },
     {
-      img: "/renr-responsive.png",
-      title: "IFlight",
+      img: "./aviation.jpg",
+      title: "KFlight",
       description:
-        "Aviation Software - for flight crew operations, passenger services, and cargo management.",
-      tech_stack: ["React Js", "Redux"],
+        "Aviation Software - For flight crew operations, passenger services, and cargo management.",
+      tech_stack: ["React Js", "Redux", "Javascript", "HTML", "CSS", "Azure DevOps"],
       github_url: "",
       demo_url: "",
     },
     {
-      img: "/mymind-responsive.png",
+      img: "./chat-img.jpg",
       title: "Chat Application",
       description:
-        "Chat Application - To connect Netherlands leading bank customers with bank representatives for query resolution.",
-      tech_stack: ["HTML", "CSS", "Angular", "Rxjs", "Ngrx", "WebSocket", "Team Leading", "Mentoring"],
+        "Chat Application - To connect Netherlands leading bank customers with bank representatives.",
+      tech_stack: ["HTML", "CSS", "Angular", "Rxjs", "Ngrx", "WebSocket", "Team Leading"],
       github_url: "",
       demo_url: "",
     },
     {
-      img: "/pokedex-responsive.png",
-      title: "Money Transfer Application",
+      img: "./moneytransfer.jpg",
+      title: "FINTECH Application",
       description:
-        "Financial Services Application - Worked on a financial services application offering various services, including money transfers",
-      tech_stack: ["Javascript", "Angular", "Rxjs", "Ngrx", "HTML", "CSS"],
+        "Money Transfer Application - Worked on a financial services application offering various services, including money transfers",
+      tech_stack: ["Javascript", "Angular", "Rxjs", "Ngrx", "HTML", "CSS", "Git"],
       github_url: "",
       demo_url: "",
     },
     {
-      img: "/jobDetect.png",
+      img: "./ebook.jpg",
       title: "Online ebook creation tool",
       description:
         "Content Management Application - A content writing platform with features for writing,styling, and organizing content.",
-      tech_stack: ["Javascript", "Backbone", "Jquery", "Bootstrap"],
+      tech_stack: ["Javascript", "Backbone", "Jquery", "Bootstrap", "HTML", "CSS"],
       github_url: "",
       demo_url: "",
     },
     {
-      img: "/jobDetect.png",
-      title: "Content Management Application",
-      description:
-        "Content Management Application - A content writing platform with features for writing,styling, and organizing content.",
-      tech_stack: ["Javascript", "Backbone", "Jquery", "Bootstrap"],
-      github_url: "",
-      demo_url: "",
-    },
-    {
-      img: "/jobDetect.png",
+      img: "./healthcare.jpg",
       title: "Healthcare Application",
       description:
         "Web applications and pages for Leading Healthcare and Lightingsolution provider.",
       tech_stack: ["Javascript", "Jquery", "HTML", "CSS", "Teamviewer"],
+      github_url: "",
+      demo_url: "",
+    },
+    {
+      img: "./wfms.jpg",
+      title: "Workflow Management System",
+      description:
+        "For automated workflows and data capturing to optimize queuemonitoring.",
+      tech_stack: ["Javascript", "Jquery", "HTML", "CSS", "PHP", "MySql"],
       github_url: "",
       demo_url: "",
     },
@@ -87,6 +92,10 @@ export const ProjectList = [
     {
       img: " https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
       name: "Redux",
+    },
+    {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
+      name: "Material UI",
     },
     {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg",
@@ -153,10 +162,6 @@ export const ProjectList = [
       name: "Bootstrap",
     },
     {
-      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-      name: "Material UI",
-    },
-    {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
       name: "Figma",
     },
@@ -167,5 +172,9 @@ export const ProjectList = [
     {
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
       name: "VS Code",
+    },
+    {
+      img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg",
+      name: "Jira",
     },
   ];

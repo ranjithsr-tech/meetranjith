@@ -27,8 +27,6 @@ const Header = ({ toggle }) => {
             className="btn PrimaryBtn"
             href="./Resume_Ranjithkumar.pdf"
             download="Ranjithkumar_Resume"
-            // target="_blank"
-            // rel="noopener noreferrer"
           >
             Resume
           </a>

@@ -50,6 +50,8 @@ function Hero() {
                     1000,
                     'An innovative thinker.',
                     1000,
+                    'A quick learner.',
+                    1000,
                     'A....',
                     1000,
                     'A.... cool guy?',
@@ -87,8 +89,11 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="./home-icon.svg"
+                src="./hero.jpg"
                 alt="ranjith-logo"
+                style={{
+                  borderRadius:'10px', 
+              }}
               />
             </ScrollAnimation>
           </HeroRight>
@@ -98,7 +103,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="./meetranjith/scroll-down.svg"
+              src="./scroll-down.svg"
               alt="scroll-down"
             />
           </ScrollLink>

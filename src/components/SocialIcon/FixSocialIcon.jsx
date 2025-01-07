@@ -4,28 +4,6 @@ import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const SocialContainer = styled.div`
-  position: fixed;
-  top: 48%;
-  left: 1.5rem;
-  transform: translateY(-50%);
-
-  ul {
-    display: block;
-  }
-
-  .item + .item {
-    margin-top: 1rem;
-  }
-
-  a {
-    font-size: 2.3rem;
-    color: rgb(119, 119, 121);
-    &:hover {
-      color: rgb(57, 134, 250);
-    }
-  }
-
-  @media screen and (max-width: 1000px) {
     margin-top: 2rem;
     position: relative;
     top: 0;
@@ -49,7 +27,6 @@ const SocialContainer = styled.div`
       margin-top: 0;
       margin-left: 2rem;
     }
-  }
 `;
 function FixSocialIcon() {
   return (
