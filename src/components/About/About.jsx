@@ -27,13 +27,13 @@ function About() {
         <br/>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Ranjithkumar</strong>. Results-driven Senior Javascript Developer with 11.5 years ofexperience in designing and maintaining dynamic, responsive webapplications. 
+            Hello! My name is <strong>Ranjithkumar</strong>. Results-driven Senior Javascript Developer with 11.5 years ofexperience in designing and maintaining dynamic, responsive web applications. 
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-            Proficient in React.js, Angular framework, with a proven ability to translate complex business requirements intoscalable, efficient solutions. Skilled in performance optimization,ensuring high-speed and reliable applications. Strong communicator adept at collaborating with clients to understandtheir needs and deliver tailored solutions. Experienced in fosteringcross-functional teamwork to consistently deliver high-qualityprojects on time. Recognized for improving applicationperformance, enhancing user engagement, and maintaining codequality standards.
+            Proficient in React.js and Angular frameworks, with a proven ability to translate complex business requirements into scalable, efficient solutions. Skilled in performance optimization, ensuring high-speed and reliable applications. Strong communicator adept at collaborating with clients to understand their needs and deliver tailored solutions. Experienced in fostering cross-functional teamwork to consistently deliver high-quality projects on time. Recognized for improving application performance, enhancing user engagement, and maintaining code quality standards.
             </ScrollAnimation>
             
             <br /><br />

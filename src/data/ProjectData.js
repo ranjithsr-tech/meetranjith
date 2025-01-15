@@ -6,9 +6,10 @@ export const ProjectList = [
     description:
       `<ul>
       <li>Aviation Software -  To simulate real life aircraft procedures for junior pilot training.</li>
-      <li>User Centric Design - Delivered responsive interfaces forseamless trainee experiences.</li>
-      <li>Cross Functional Collaboration - Worked with UI/UX designersand backend teams to implement feature-rich functionalities.</li><li>Performance Optimization - Enhanced app performance,reducing load times and boosting engagement.</li>
-      <li>Automated Testing - Implemented Cypress E2E tests to ensurereliability and high-quality features.</li>
+      <li>User Centric Design - Delivered responsive interfaces for seamless trainee experiences.</li>
+      <li>Cross Functional Collaboration - Worked with UI/UX designers and backend teams to implement feature-rich functionalities.</li>
+      <li>Performance Optimization - Enhanced app performance, reducing load times and boosting engagement.</li>
+      <li>Automated Testing - Implemented Cypress E2E tests to ensure reliability and high quality features.</li>
       <ul>`,
       tech_stack: ["Javascript", "React Js", "Redux", "Mui", "Node js", "Vite", "HTML", "CSS", "Sass", "Team Leading"],
       github_url: "",
@@ -18,8 +19,12 @@ export const ProjectList = [
       img: "./aviation.jpg",
       title: "KFlight",
       description:
-        "Aviation Software - For flight crew operations, passenger services, and cargo management.",
-      tech_stack: ["React Js", "Redux", "Javascript", "HTML", "CSS", "Azure DevOps"],
+        `<ul>
+        <li>Aviation Software - For flight crew operations, passenger services, and cargo management.</li>
+        <li>Contributed to the maintenance of a task allocation and roster management platform, utilizing Angular to streamline operations and facilitate training for flight crew members.</li>
+        <li>Developed robust end-to-end test cases using Cypress to ensure seamless application functionality and improve software reliability.</li>
+        </ul>`,
+      tech_stack: ["React Js", "Redux", "Javascript", "HTML", "CSS", "Azure DevOps", "Angular"],
       github_url: "",
       demo_url: "",
     },
