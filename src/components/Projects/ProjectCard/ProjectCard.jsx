@@ -95,29 +95,6 @@ function ProjectCard() {
           </Card>
         </ScrollAnimation>
       ))}
-
-      <List>
-        {['Item 1', 'Item 2', 'Item 3', 'Item 4'].map((item, index) => (
-          <ListItem
-            key={index}
-            sx={{
-              '&:hover': {
-                backgroundColor: '#f5f5f5', // Add hover effect
-              },
-            }}
-          >
-            <ListItemIcon>
-              <PanToolIcon
-                sx={{
-                  transform: 'rotate(-45deg)', // Rotate for finger-pointing effect
-                  color: 'blue',
-                }}
-              />
-            </ListItemIcon>
-            <ListItemText primary={item} />
-          </ListItem>
-        ))}
-      </List>
     </>
   );
 }
